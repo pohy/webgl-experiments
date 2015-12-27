@@ -5,7 +5,7 @@ module.exports = {
 	entry: [
 		'babel-polyfill',
 		'./src/app/main',
-		'webpack-dev-server/client?http://localhost:8000'
+		'webpack-dev-server/client?http://localhost:8080'
    	],
 	output: {
 		publicPath: '/public/',
